@@ -5,12 +5,12 @@ body {  background: #f1f1f1;
 }
 
 .navbar-brand{min-height: 50px;
-    padding: 30px;
+    padding: 20px;
     margin: -10px;
     margin-left: 10px;
     font-weight: 750;
     font-size: 30px;
-    background-color: #48a6dd;
+    background-color: lightgray;
     }
 
 
@@ -27,13 +27,17 @@ font-size: 40px
 h3 {
 font-size: px;
 color: #5191fd;
-
 }
+
+.main-box {
+    text-align: justify;
+  }
+
 
 /* Giving our navbar some padding and a background color */
 .navbar {
 padding: 10px;
-background: #5191fd;
+background: #051b41;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -43,7 +47,7 @@ padding: 20px;
 margin-right: 10px;
 margin-left: 10px;
 cursor: pointer;
-background: #f1f1f1;
+background: lightgray;
 border-radius: 3px;
 }
 
